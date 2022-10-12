@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="icon" href="credit_card_icon_129438.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><img src="pelicula.png" class="imgpelicula">TVMOVIES</header>
+
+    <p id="mensaje">Estas a punto de empezar tu prueba gratis x 1 mes, para continuar elige el plan para el siguiente
+      mes y a continuación vamos a validar tu método de pago (tarjeta crédito/débito).
+    </p>
+
+    <section id="inicio"><br>
+      
+        <section id="plan">
+          <h1>SUSCRIPCIÓN MENSUAL</h1>
+          <h1>$5.000 cop</h1>
+          <p>-Todo nuestro contenido disponible</p>
+          <p>-Descargas para disfrutar offline</p>
+          <p>-Calidad HD, full HD</p>
+          <p>-Sin anuncios</p>
+        </section><br>
+
+        <button class="siguiente" id="siguiente" type="submit">SIGUIENTE</button><br><br><br>
+
+    </section>
+
+    
+    <section id="validacion">
+      <p>Puedes cancelar tu suscripción en cualquier momento. Cuando termine tu mes gratis, te contactaremos
+        para que realices el pago y sigas disfrutando de nuestros servicios.</p>
+
+      <p id="fraude">No te preocupes tus datos no se guardan, es un simple proceso para evitar fraude.</p><br>
+    
+      <section id="ingreso">
+        <p>Ingresa el número de tu tarjeta crédito/débito sin puntos, comas y espacios</p>
+        <label id="tar">N° tarjeta:</label> <input type="text" class="caja" id="caja" placeholder="ej: 4456785326796543">
+        <button class="ayuda" id="ayuda" type="submit">?</button>  <br><br>
+        <button class="validar" id="validar" type="submit">VALIDAR</button>
+      </section>
+    </section>
+    
+  
+    <p id="result"></p>
+    <section id="infoTarjeta">
+      <h1>DETALLES DE TU TARJETA</h1>
+      <p id="tarCifrada"></p>
+      <p id="franquicia"></p>
+      <p id="validez"></p><br><br>      
+    </section>
+    <p id="final"></p>
+
+    <button class="regresar" id="regresar" type="submit">REGRESAR</button><br><br>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

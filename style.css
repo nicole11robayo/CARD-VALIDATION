@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #9792df;
+}
+
+header{
+    font-size: 2rem;
+    text-align: right;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.imgpelicula{
+    height: 4rem;
+    width: 5rem;
+}
+
+#inicio{
+    background-image: url(http://mevadecine.com/wp-content/uploads/2019/04/Mosaico_primavera_mevadecine.png);
+   
+}
+
+#mensaje,#fraude,#final{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+#plan{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 16rem;
+    height: 24rem;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.siguiente{
+    display: block;
+    margin:auto;
+    font-size: 2rem;
+    width: 16rem;
+    height: 3.4rem;
+    border-radius: 32px;
+    background: rgb(60, 226, 60);
+}
+.siguiente:hover{
+    background-color: #eceff1;
+    cursor: pointer;
+}
+
+
+
+#ingreso{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 40rem;
+    height: 13rem;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+
+#tar,#caja{
+    font-size: 2rem;
+}
+#caja{
+    text-align: center;
+    
+}
+
+.ayuda{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    background: rgb(11, 41, 175);
+    color:#eceff1;
+    
+}
+
+.validar{
+    display: block;
+    margin:auto;
+    font-size: 2rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 32px;
+    background: rgb(60, 226, 60);
+}
+.validar:hover{
+    background-color: rgb(154, 231, 170);
+    cursor: pointer;
+}
+
+#infoTarjeta{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 40rem;
+    height: 12rem;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.regresar{
+    display: block;
+    margin: auto;
+    background:rgba(238, 78, 66, 0.911);
+    width: 17rem;
+    height: 3.5rem;
+    border-radius: 32px;
+    font-size: 2rem;
+
+}
+
+.regresar:hover{
+    background-color: rgb(211, 142, 53);
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.3rem;
+}
